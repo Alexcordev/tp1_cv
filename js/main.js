@@ -1,10 +1,10 @@
 $(document).ready( function() {
   $(function() {
-    $('#form').hide();
+    $('#main').hide();
 });
   
   $('#joindre').on('click', function(){
-    $('#form').slideDown( 1000, function() {
+    $('#main').slideDown( 1000, function() {
       $( this )
         .css( "border", "2px #0000ff inset" )
         $('#joindre').css('display', 'none');
@@ -25,36 +25,28 @@ $(document).ready( function() {
       });
 
       $('input').focus( function(){
-        $('this.#input').css('background', '#daffb3');
+        $('input#nom').css('background', '#daffb3');
       });
 
       $('input').blur( function(){
-        $('#input').css('background', '#ffffff');
+        $('input#nom').css('background', '#ffffff');
       });
 
       $('input').focus( function(){
-        $('#input1').css('background', '#daffb3');
+        $('input#courriel').css('background', '#daffb3');
       });
 
       $('input').blur( function(){
-        $('#input1').css('background', '#ffffff');
+        $('input#courriel').css('background', '#ffffff');
       });
     
 
       $('input').focus( function(){
-        $('#input2').css('background', '#daffb3');
+        $('input#tel').css('background', '#daffb3');
       });
 
       $('input').blur( function(){
-        $('#input2').css('background', '#ffffff');
-      });
-
-      $('input').focus( function(){
-        $('#input3').css('background', '#daffb3');
-      });
-
-      $('input').blur( function(){
-        $('#input3').css('background', '#ffffff');
+        $('input#tel').css('background', '#ffffff');
       });
 
       $('button').on('mouseenter', function(){
@@ -65,5 +57,9 @@ $(document).ready( function() {
         $('#envoyer').css('background', '#000000');
       });
 
-    
+      $('#form').submit(function(e){
+        e.preventDefault();
+        var nom = $('input#nom').val();
+        alert("J'ai bien reçu votre message " + nom + " Merci !");
+      });
 });
