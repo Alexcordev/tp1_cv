@@ -1,0 +1,801 @@
+*{
+   box-sizing: border-box; 
+   padding: 0;
+     
+}
+
+body {
+    box-sizing: content-box;
+    margin: auto 200px auto 200px;
+    background-color: #262626;
+    
+    
+}
+.main {
+
+    width: 90%;
+    height: 80%;
+    border: 1px #000000 solid;
+    padding: 0px;
+    margin: auto;
+    background-color: #ccc
+
+
+}
+
+.main-header{
+    width: 100%;
+    height: 150px;
+    background-color: #0000ff;
+    margin:0rem;
+    z-index: -1;
+    
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #0000ff;
+    color: #ffffff;
+    
+}
+
+#joindre {
+    float:right;
+    margin-right:80px;
+    padding:10px;
+    width: auto;
+    background-color: #0000ff; 
+    color:#ffffff; 
+    border:2px #ffffff solid;
+
+
+}
+#header-title {
+    margin:-100px auto auto 170px;
+    text-shadow:2px 2px #333333;
+    font-size:3.5rem;
+    color: #00bfff;
+}
+
+#stack {
+
+    color:#fff;
+    text-shadow:3px 3px #333333;
+    font-size:5rem;
+}
+
+#adresse {
+    font-size: 1.5rem;
+    float:right;
+    margin:auto 80px auto 20px;
+
+}
+
+
+#form {
+    width: 100%;
+    height: 450px;
+    background-color: #ccc;
+    color: #ffffff;
+    display: flex;
+       
+}
+
+.card-form {
+    margin: 30px auto auto 40px;
+    width: auto;
+    order: 1;
+    flex: 1;
+}
+
+.textarea{
+    
+    width: auto;
+    margin: 30px 30px auto 30px;
+    order: 2;
+    flex: 1;
+
+}
+
+.envoyer {
+
+margin-bottom: 20px;
+padding: 10px;
+width: 80px;
+background-color: #262626;
+border: 2px #33cc33 solid;
+color: #ffffff;
+
+}
+
+
+
+.infos {
+    font-size: 2.5rem;
+    margin: 20px 20px auto 20px;
+}
+
+.infos1 {
+    font-size: 2rem;
+    margin: 20px 20px auto 20px;
+}
+
+
+.courriel {
+
+    font-size: 1rem;
+    color: #0000ff;
+    margin-left: 7px;
+}
+
+
+.logo {
+    display: flex;
+    width: 30%;
+    line-height: 100px;
+    margin-top: 170px;
+    margin-right: 20px;
+    text-align: center;
+    float: right;
+    
+}
+
+.logo1 {
+    
+    width: auto;
+    height:100px;
+    flex: 1;
+    background-color:#262673;
+    padding: 3px;
+    border: 2px #ffffff solid;
+    color: #ffffff;
+    
+
+}
+
+.logo2 {
+    width: auto;
+    height: 100px;
+    flex: 1;
+    background-color: #264d73;
+    padding: 3px;
+    border: 2px #ffffff solid;
+    color: #ffffff;
+    
+    
+}
+
+.logo3 {
+    width: auto;
+    height: 100px;
+    flex: 1;
+    background-color:#4da6ff;
+    padding: 3px;
+    border: 2px #ffffff solid;
+    color: #ffffff;
+}
+
+body{
+    margin-top: 0rem;
+    font-family: sans-serif;
+}
+
+
+.section {
+    background-color: #000000;
+    line-height: 2rem;
+    color: #ffffff;
+    padding-left: 1rem;
+    margin:5px auto 0px auto;
+    font-size: 2rem;
+    border-top: 3px #0000ff solid;
+    border-bottom: 3px #0000ff solid;
+    
+    
+}
+
+.conteneur-renseignement {
+   display:inline;
+   
+
+}
+
+.adresse {
+   border-top: 4px #0000ff solid;  
+   border-bottom: 4px #0000ff solid;   
+   width: 44%;
+   padding: 5px;
+   margin: 25px 20px 60px 20px;
+   
+        
+}   
+    
+.avatar {
+    
+    float: right;
+    position: fixed;
+    transform: rotate(8deg) ;
+    border: 14px #ffffff solid;
+    margin: -135px 40px auto 1140px;
+    box-shadow: 2px 4px 6px #262626;
+    
+    
+}
+
+.coords {
+    border-top: 5px solid #ffffff;
+    background-color: #33cc33;
+    width:100%;
+    height: 485px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    
+
+}
+
+.tel-block{
+    width: 30%;
+    height: 200px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+    margin:auto auto auto auto;
+    
+}
+
+.courriel-block{
+    margin: 40px auto auto auto;
+    width: 30%;
+    height: 200px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.courriel {
+    font-size: 1.5rem;
+    color:#ffffff;
+    
+}
+
+.tel {
+    color: #ffffff;
+    font-size: 1.5rem;
+   
+}
+
+#icone-phone {
+    font-size: 9rem;
+    
+    
+}
+
+#icone-email {
+
+   font-size: 7rem; 
+}
+
+
+.conteneur-etudes {
+   
+   display: flex;
+   padding: 1.5rem 5rem 1.5rem 5rem;
+   background-color: #ff9900;
+}
+
+
+.box1 {
+    
+    text-align: justify;
+    padding: 5px;
+    flex: 1;
+    order: 1;
+    
+}
+
+.box2 {
+   
+    text-align: justify;
+    padding: 5px;
+    flex: 1;
+    order: 2;
+   
+}
+
+.conteneur-travail {
+   display: flex;
+   padding: 0rem 5rem 1.5rem 5rem;
+   flex-wrap: wrap;
+  
+
+}
+
+.footer {
+
+    background-color: #0000ff;
+    width: 100%;
+    height: 300px;
+    margin:30px auto auto auto;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    
+    body {
+        
+        margin: 0px;
+        
+        
+        
+    }
+    .main {
+    
+        width: 100%;
+        height: 100%;
+        border: 1px #000000 solid;
+        padding: 0px;
+        background-color: #ccc
+    
+    
+    }  
+    
+    #joindre {
+        float:right;
+        margin-right:20px;
+        padding:10px;
+        width: auto;
+        background-color: #0000ff; 
+        color:#ffffff; 
+        border:2px #ffffff solid;
+    
+    
+    }
+    
+    .avatar {
+        display: none;
+                
+      }
+    
+      #header-title {
+        
+            margin:-100px auto auto 170px;
+            text-shadow:2px 2px #333333;
+            font-size:1rem;
+            color: #00bfff;
+        }
+    
+        #stack {
+    
+            color:#fff;
+            text-shadow:3px 3px #333333;
+            font-size:1.5rem;
+        }
+
+        .infos {
+            font-style: 2rem;
+        }
+        
+        #markup {
+            display: none;
+            
+        }
+
+        .adresse {
+
+            height: 125px;
+            width: 50%;
+
+        }
+
+        #adresse {
+            font-size: 1.5rem;
+            margin:auto;
+           
+            
+        
+        }
+
+        .section {
+            background-color: #000000;
+            line-height: 2rem;
+            color: #ffffff;
+            padding-left: 1rem;
+            margin:5px auto 20px auto;
+            font-size: 1rem;
+            border-top: 3px #0000ff solid;
+            border-bottom: 3px #0000ff solid;
+            
+            
+        }
+
+        .tel-block{
+            width: 70%;
+            height: 200px;
+            border: 2px solid #ffffff;
+            text-align: center;
+            padding-bottom: 20px;
+            margin:auto auto auto auto;
+            
+        }
+        
+        .courriel-block{
+            margin: 40px auto auto auto;
+            width: 70%;
+            height: 200px;
+            border: 2px solid #ffffff;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        
+        .courriel {
+            font-size: 1.5rem;
+            color:#ffffff;
+            
+        }
+        
+        .tel {
+            color: #ffffff;
+            font-size: 1.5rem;
+           
+        }
+
+        .logo {
+            display: flex;
+            width: 100%;
+            line-height: 100px;
+            margin: 175px auto auto auto ;
+            text-align: center;
+            
+            
+        }
+        
+        .logo1 {
+            
+            width: auto;
+            height:100px;
+            flex: 1;
+            background-color:#262673;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+            
+        
+        }
+        
+        .logo2 {
+            width: auto;
+            height: 100px;
+            flex: 1;
+            background-color: #264d73;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+            
+            
+        }
+        
+        .logo3 {
+            width: auto;
+            height: 100px;
+            flex: 1;
+            background-color:#4da6ff;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+        }
+    
+    }
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    
+    body {
+        
+        margin: 0px;
+        
+        
+        
+    }
+    .main {
+    
+        width: 100%;
+        height: 100%;
+        border: 1px #000000 solid;
+        padding: 0px;
+        background-color: #ccc
+    
+    
+    }   
+    
+    .avatar {
+        display: none;
+                
+      }
+
+      #joindre {
+        float:right;
+        margin-right:20px;
+        padding:10px;
+        width: auto;
+        background-color: #0000ff; 
+        color:#ffffff; 
+        border:2px #ffffff solid;
+    
+    
+    }
+    
+      #header-title {
+        
+            margin:-100px auto auto 170px;
+            text-shadow:2px 2px #333333;
+            font-size:2rem;
+            color: #00bfff;
+        }
+    
+        #stack {
+    
+            color:#fff;
+            text-shadow:2.5px 3px #333333;
+            font-size:3rem;
+        }
+
+        #adresse {
+            font-size: 1.5rem;
+            float:right;
+            margin:auto;
+        
+        }
+
+        .section {
+            background-color: #000000;
+            line-height: 1.5rem;
+            color: #ffffff;
+            padding-left: 1rem;
+            margin:5px auto 20px auto;
+            font-size: 1.5rem;
+            border-top: 3px #0000ff solid;
+            border-bottom: 3px #0000ff solid;
+            
+            
+        }
+
+        .tel-block{
+            width: 70%;
+            height: 200px;
+            border: 2px solid #ffffff;
+            text-align: center;
+            padding-bottom: 20px;
+            margin:auto auto auto auto;
+            
+        }
+        
+        .courriel-block{
+            margin: 40px auto auto auto;
+            width: 70%;
+            height: 200px;
+            border: 2px solid #ffffff;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        
+        .courriel {
+            font-size: 1.5rem;
+            color:#ffffff;
+            
+        }
+        
+        .tel {
+            color: #ffffff;
+            font-size: 1.5rem;
+           
+        }
+
+        .logo {
+            display: flex;
+            width: 100%;
+            line-height: 100px;
+            margin: 175px auto auto auto ;
+            text-align: center;
+            
+            
+        }
+        
+        .logo1 {
+            
+            width: auto;
+            height:100px;
+            flex: 1;
+            background-color:#262673;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+            
+        
+        }
+        
+        .logo2 {
+            width: auto;
+            height: 100px;
+            flex: 1;
+            background-color: #264d73;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+            
+            
+        }
+        
+        .logo3 {
+            width: auto;
+            height: 100px;
+            flex: 1;
+            background-color:#4da6ff;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+        }
+        
+    }
+
+@media only screen and (min-width: 900px) and (max-width: 1375px) {
+    
+    body {
+        
+        margin: 0px;
+        
+        
+        
+    }
+    .main {
+    
+        width: 100%;
+        height: 100%;
+        border: 1px #000000 solid;
+        padding: 0px;
+        background-color: #ccc
+    
+    
+    }   
+    
+    .avatar {
+        float: right;
+        position: fixed;
+        transform: rotate(8deg) ;
+        border: 14px #ffffff solid;
+        margin: -135px 40px auto 1075px;
+        box-shadow: 2px 4px 6px #262626;
+                
+      }
+
+      #joindre {
+        float:right;
+        margin-right:20px;
+        padding:10px;
+        width: auto;
+        background-color: #0000ff; 
+        color:#ffffff; 
+        border:2px #ffffff solid;
+    
+    
+    }
+    
+      #header-title {
+        
+            margin:-100px auto auto 170px;
+            text-shadow:2px 2px #333333;
+            font-size:3rem;
+            color: #00bfff;
+        }
+    
+        #stack {
+    
+            color:#fff;
+            text-shadow:2.5px 3px #333333;
+            font-size:4rem;
+        }
+
+        #adresse {
+            font-size: 1.5rem;
+            float:right;
+            margin:auto;
+        
+        }
+
+        .section {
+            background-color: #000000;
+            line-height: 1.5rem;
+            color: #ffffff;
+            padding-left: 1rem;
+            margin:5px auto 20px auto;
+            font-size: 1.5rem;
+            border-top: 3px #0000ff solid;
+            border-bottom: 3px #0000ff solid;
+            
+            
+        }
+
+        .tel-block{
+            width: 70%;
+            height: 200px;
+            border: 2px solid #ffffff;
+            text-align: center;
+            padding-bottom: 20px;
+            margin:auto auto auto auto;
+            
+        }
+        
+        .courriel-block{
+            margin: 40px auto auto auto;
+            width: 70%;
+            height: 200px;
+            border: 2px solid #ffffff;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        
+        .courriel {
+            font-size: 1.5rem;
+            color:#ffffff;
+            
+        }
+        
+        .tel {
+            color: #ffffff;
+            font-size: 1.5rem;
+           
+        }
+
+        .logo {
+            display: flex;
+            width: 100%;
+            line-height: 100px;
+            margin: 175px auto auto auto ;
+            text-align: center;
+            
+            
+        }
+        
+        .logo1 {
+            
+            width: auto;
+            height:100px;
+            flex: 1;
+            background-color:#262673;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+            
+        
+        }
+        
+        .logo2 {
+            width: auto;
+            height: 100px;
+            flex: 1;
+            background-color: #264d73;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+            
+            
+        }
+        
+        .logo3 {
+            width: auto;
+            height: 100px;
+            flex: 1;
+            background-color:#4da6ff;
+            padding: 3px;
+            border: 2px #ffffff solid;
+            color: #ffffff;
+        }
+
+
+        
+}
