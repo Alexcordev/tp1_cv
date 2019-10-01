@@ -13,7 +13,7 @@ body {
 }
 .main {
 
-    width: 90%;
+    width: 100%;
     height: 80%;
     border: 1px #000000 solid;
     padding: 0px;
@@ -25,12 +25,40 @@ body {
 
 .main-header{
     width: 100%;
-    height: 150px;
+    height: 400px;
     background-color: #0000ff;
-    margin:0rem;
-    z-index: -1;
+    margin:0px;
+    display: flex;
     
     
+}
+.jslogo{
+flex: 1;
+order: 1;
+height: 400px;
+width: 20%;
+}
+
+.image {
+flex: 1;
+order:3;
+height: 400px;
+width: 10%;
+
+}
+
+.avatar {
+    background-color: #66ff33;
+    margin: 15px auto auto 150px;
+        
+}
+
+.titre-principal {
+flex: 2;
+order: 2;
+height: 400px;
+width: 60%;
+
 }
 
 .navbar {
@@ -43,7 +71,6 @@ body {
 
 #joindre {
     float:right;
-    margin-right:80px;
     padding:10px;
     width: auto;
     background-color: #0000ff; 
@@ -52,27 +79,60 @@ body {
 
 
 }
+.infosgen {
+    color:#ffffff;
+    background-color: #0000ff;
+    padding:10px;
+    width: auto;
+    border:2px #ffffff solid;
+
+}
+
+.skills {
+    color:#ffffff;
+    background-color: #0000ff;
+    padding:10px;
+    width: auto;
+    border:2px #ffffff solid;
+    text-decoration: none;
+    margin: auto 20px 20px 60px;
+
+}
+
+
 #header-title {
-    margin:-100px auto auto 170px;
+    
     text-shadow:2px 2px #333333;
-    font-size:3.5rem;
     color: #00bfff;
+    font-size: 4rem;
+    margin: 150px auto 150px 70px;
+    width: 100%;
 }
 
 #stack {
-
+    
     color:#fff;
     text-shadow:3px 3px #333333;
-    font-size:5rem;
+    font-size: 4rem;
+    margin-left:90px;
+}
+
+.avatar {
+      
+    transform: rotate(8deg) ;
+    border: 14px #ffffff solid;
+    box-shadow: 2px 4px 6px #262626;
+    
+    
 }
 
 #adresse {
+    margin: auto;
     font-size: 1.5rem;
-    float:right;
-    margin:auto 80px auto 20px;
+    text-align: center;
+
 
 }
-
 
 #main {
     width: 100%;
@@ -109,9 +169,11 @@ border: 2px #33cc33 solid;
 color: #ffffff;
 
 }
+input {
+     width: 100%;
+     height: 30px;
 
-
-
+}
 .infos {
     font-size: 2.5rem;
     margin: 20px 20px auto 20px;
@@ -133,48 +195,49 @@ color: #ffffff;
 
 .logo {
     display: flex;
-    width: 30%;
+    width: 50%;
     line-height: 100px;
-    margin-top: 170px;
-    margin-right: 20px;
+    margin:0% 25%;
     text-align: center;
-    float: right;
+    
     
 }
 
 .logo1 {
     
-    width: auto;
+    width: 150px;
     height:100px;
     flex: 1;
     background-color:#262673;
     padding: 3px;
     border: 2px #ffffff solid;
     color: #ffffff;
+    margin-top: 30%;
     
 
 }
 
 .logo2 {
-    width: auto;
+    width: 150px;
     height: 100px;
     flex: 1;
     background-color: #264d73;
     padding: 3px;
     border: 2px #ffffff solid;
     color: #ffffff;
-    
+    margin-top: 30%;
     
 }
 
 .logo3 {
-    width: auto;
+    width: 150px;
     height: 100px;
     flex: 1;
     background-color:#4da6ff;
     padding: 3px;
     border: 2px #ffffff solid;
     color: #ffffff;
+    margin-top: 30%;
 }
 
 body{
@@ -192,142 +255,268 @@ body{
     font-size: 2rem;
     border-top: 3px #0000ff solid;
     border-bottom: 3px #0000ff solid;
+    text-align: center;
     
     
 }
 
-.conteneur-renseignement {
-   display:inline;
+.main-conteneur-renseignement {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin:40px auto 40px auto;
+   height: auto;
    
+   
+
+}
+
+.images-renseignement {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin: -100px auto auto -40px;
+    flex: 1;
+    order: 1
+
+
+}
+
+.clip {
+    position:relative;
+    width: 50px;
+    height: 100px;
+    margin: 30px auto -40px -100px;
+    transform: rotate(-30deg);
+    z-index: 2;
+}
+
+.map {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto auto -100px;
+    border: 8px solid #ffffff;
+    transform: rotate(-20deg);
+    z-index: 1;
+    box-shadow: 2px 4px 5px #262626;
+
+}
+
+
+
+
+.infos-principales {
+    flex: 1;
+    order: 1;
+    padding:5px; 
+    text-align: center;
+    margin:40px auto 20px auto;
+    width: 50%;
+         
 
 }
 
 .adresse {
+   flex: 1;
+   order: 2;
    border-top: 4px #0000ff solid;  
-   border-bottom: 4px #0000ff solid;   
-   width: 44%;
-   padding: 5px;
-   margin: 25px 20px 60px 20px;
-   
+   border-bottom: 4px #0000ff solid;  
+   padding:5px; 
+   text-align: center;
+   margin:40px auto 20px auto;
+   width: 50%;
         
 }   
     
-.avatar {
-    
-    float: right;
-    position: fixed;
-    transform: rotate(8deg) ;
-    border: 14px #ffffff solid;
-    margin: -135px 40px auto 1140px;
-    box-shadow: 2px 4px 6px #262626;
-    
-    
-}
+
 
 .coords {
     border-top: 5px solid #ffffff;
     background-color: #33cc33;
     width:100%;
-    height: 485px;
-    padding-top: 30px;
-    margin: auto;
+    height: 450px;
+    padding: 1.5rem 5rem 1.5rem 5rem;
     text-align: center;
     
 
 }
 
 .tel-block{
-    width: 30%;
-    height: 200px;
+    width: 50%;
+    line-height: 100px;
     border: 2px solid #ffffff;
     text-align: center;
-    padding-bottom: 20px;
-    margin:auto auto auto auto;
+    margin: auto;
+    padding: 20px;
+    
     
 }
 
 .courriel-block{
-    margin: 40px auto auto auto;
-    width: 30%;
-    height: 200px;
+    margin: 20px auto auto auto;
+    width: 50%;
+    line-height: 100px;
     border: 2px solid #ffffff;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
     
 }
 
 .courriel {
     font-size: 1.5rem;
     color:#ffffff;
-    
+    height: 100px;
+    margin-left: 20px;
 }
 
 .tel {
+    height: 100px;
     color: #ffffff;
     font-size: 1.5rem;
+    margin-left: 20px;
    
 }
 
 #icone-phone {
-    font-size: 9rem;
+    font-size: 6rem;
     
     
 }
 
 #icone-email {
 
-   font-size: 7rem; 
+   font-size: 5rem; 
+}
+
+.conteneur-competences {
+    padding: 1.5rem 5rem 1.5rem 5rem;
+    height: 700px;
+    background-color: #0000ff;
+    margin: auto;
+
+
+}
+
+.compt {
+
+    width: 70%;
+    margin: auto;
+
 }
 
 
 .conteneur-etudes {
    
    display: flex;
+   width: 100%;
    padding: 1.5rem 5rem 1.5rem 5rem;
    background-color: #ff9900;
-}
-
-
-.box1 {
-    
-    text-align: justify;
-    padding: 5px;
-    flex: 1;
-    order: 1;
-    
-}
-
-.box2 {
+   height: auto;
+   flex-wrap: wrap;
+   text-align: center;
    
-    text-align: justify;
-    padding: 5px;
-    flex: 1;
-    order: 2;
+   
    
 }
+
 
 .conteneur-travail {
    display: flex;
-   padding: 0rem 5rem 1.5rem 5rem;
+   width: 80%;
+   padding: 1.5rem 5rem 1.5rem 5rem;
    flex-wrap: wrap;
+   text-align: center;
+   height: auto;
+   margin: auto;
   
 
 }
+
+.conteneur-parasco {
+   display: flex;
+   height: auto;
+   width: 80%;
+   padding: 1.5rem 5rem 1.5rem 5rem;
+   margin: auto;
+   
+}
+
+.box7 {
+
+    flex: 1;
+    order: 1;
+    margin: 20px auto auto auto;
+    
+}
+
+.box8 {
+    
+    flex: 1;
+    order: 2;
+    margin: auto;
+       
+}
+
+.hobby {
+    height: 400px;
+    width: 400px;
+    border: 5px double #262626;
+}
+
+.conteneur-autre {
+   display: flex;
+   height: auto;
+   width: 80%;
+   padding: 1.5rem 5rem 1.5rem 5rem;
+   margin: auto;
+}
+
+.box9 {
+
+    flex: 1;
+    order: 1;
+    margin: 20px auto auto auto;
+    
+}
+
+.box10 {
+    
+    flex: 1;
+    order: 2;
+    margin: 20px auto auto auto;
+       
+}
+
+.logo_prod1 {
+    position: absolute;
+    margin: 40px auto 20px 60px;
+
+}
+
+.logo_prod2 {
+    position: relative;
+    margin: 40px auto 20px -100px
+}
+
 
 .footer {
 
     background-color: #0000ff;
     width: 100%;
-    height: 300px;
-    margin:30px auto auto auto;
+    height: 450px;
+    padding-top: 10%;
+    margin:auto auto auto auto;
     color: #ffffff;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     
     body {
         
         margin: 0px;
+        width: 100%;
+        
         
         
         
@@ -341,11 +530,19 @@ body{
         background-color: #ccc
     
     
-    }  
+    } 
+    
+    .navbar {
+        width: 100%;
+        height: 50px;
+        background-color: #0000ff;
+        color: #ffffff;
+        
+    }
     
     #joindre {
-        float:right;
-        margin-right:20px;
+        
+        margin: auto;
         padding:10px;
         width: auto;
         background-color: #0000ff; 
@@ -362,9 +559,8 @@ body{
     
       #header-title {
         
-            margin:-100px auto auto 170px;
             text-shadow:2px 2px #333333;
-            font-size:1rem;
+            font-size:3rem;
             color: #00bfff;
         }
     
@@ -372,7 +568,7 @@ body{
     
             color:#fff;
             text-shadow:3px 3px #333333;
-            font-size:1.5rem;
+            font-size:4rem;
         }
 
         .infos {
@@ -382,6 +578,14 @@ body{
         #markup {
             display: none;
             
+        }
+
+        .clip {
+            display: none;
+        }
+        
+        .map {
+            display: none;
         }
 
         .adresse {
@@ -412,6 +616,19 @@ body{
             
         }
 
+        input {
+            width: 100%;
+            height: 30px;
+            margin-bottom: 20px;
+       
+       }
+
+       #sujet {
+            width: 90%;
+            height: 50%;
+
+       } 
+
         .tel-block{
             width: 70%;
             height: 200px;
@@ -488,314 +705,92 @@ body{
             border: 2px #ffffff solid;
             color: #ffffff;
         }
-    
-    }
 
-@media only screen and (min-width: 600px) and (max-width: 900px) {
-    
-    body {
-        
-        margin: 0px;
-        
-        
-        
-    }
-    .main {
-    
-        width: 100%;
-        height: 100%;
-        border: 1px #000000 solid;
-        padding: 0px;
-        background-color: #ccc
-    
-    
-    }   
-    
-    .avatar {
-        display: none;
+        .conteneur-parasco {
+            display: inline;
+            padding: 1.5rem 5rem 1.5rem 5rem;
+            margin: auto;
+            text-align: center;
+            
+            
+            
+         }
+         
+         .box7 {
+         
+             
+             margin: 20px auto auto auto;
+             list-style: none;
+             
+         }
+
+         .liste_parasco {
+            list-style: none;
+
+         }
+         
+         .box8 {
+             
+             
+             margin: auto;
                 
-      }
+         }
+         
+         .hobby {
+             height: 150px;
+             width: 150px;
+             border: 5px double #262626;
+             margin-left:40px;
+         }
 
-      #joindre {
-        float:right;
-        margin-right:20px;
-        padding:10px;
-        width: auto;
-        background-color: #0000ff; 
-        color:#ffffff; 
-        border:2px #ffffff solid;
-    
-    
-    }
-    
-      #header-title {
-        
-            margin:-100px auto auto 170px;
-            text-shadow:2px 2px #333333;
-            font-size:2rem;
-            color: #00bfff;
-        }
-    
-        #stack {
-    
-            color:#fff;
-            text-shadow:2.5px 3px #333333;
-            font-size:3rem;
-        }
-
-        #adresse {
-            font-size: 1.5rem;
-            float:right;
-            margin:auto;
+         .logo_prod1 {
+            display:none;
         
         }
 
-        .section {
-            background-color: #000000;
-            line-height: 1.5rem;
-            color: #ffffff;
-            padding-left: 1rem;
-            margin:5px auto 20px auto;
-            font-size: 1.5rem;
-            border-top: 3px #0000ff solid;
-            border-bottom: 3px #0000ff solid;
-            
-            
-        }
-
-        .tel-block{
-            width: 70%;
-            height: 200px;
-            border: 2px solid #ffffff;
+        .conteneur-autre {
+            display: inline;
+            padding: 1.5rem 5rem 1.5rem 5rem;
+            margin: auto;
             text-align: center;
-            padding-bottom: 20px;
-            margin:auto auto auto auto;
-            
-        }
-        
-        .courriel-block{
-            margin: 40px auto auto auto;
-            width: 70%;
-            height: 200px;
-            border: 2px solid #ffffff;
-            padding: 20px;
-            text-align: center;
-            
-        }
-        
-        .courriel {
-            font-size: 1.5rem;
-            color:#ffffff;
-            
-        }
-        
-        .tel {
-            color: #ffffff;
-            font-size: 1.5rem;
-           
-        }
-
-        .logo {
-            display: flex;
-            width: 100%;
-            line-height: 100px;
-            margin: 175px auto auto auto ;
-            text-align: center;
-            
-            
-        }
-        
-        .logo1 {
-            
-            width: auto;
-            height:100px;
-            flex: 1;
-            background-color:#262673;
-            padding: 3px;
-            border: 2px #ffffff solid;
-            color: #ffffff;
-            
-        
-        }
-        
-        .logo2 {
-            width: auto;
-            height: 100px;
-            flex: 1;
-            background-color: #264d73;
-            padding: 3px;
-            border: 2px #ffffff solid;
-            color: #ffffff;
-            
-            
-        }
-        
-        .logo3 {
-            width: auto;
-            height: 100px;
-            flex: 1;
-            background-color:#4da6ff;
-            padding: 3px;
-            border: 2px #ffffff solid;
-            color: #ffffff;
-        }
-        
-    }
-
-@media only screen and (min-width: 900px) and (max-width: 1375px) {
-    
-    body {
-        
-        margin: 0px;
-        
-        
-        
-    }
-    .main {
-    
-        width: 100%;
-        height: 100%;
-        border: 1px #000000 solid;
-        padding: 0px;
-        background-color: #ccc
-    
-    
-    }   
-    
-    .avatar {
-        float: right;
-        position: fixed;
-        transform: rotate(8deg) ;
-        border: 14px #ffffff solid;
-        margin: -135px 40px auto 1075px;
-        box-shadow: 2px 4px 6px #262626;
+         }
+         
+         .box9 {
+         
+             margin: 20px auto auto auto;
+             
+         }
+         
+         .box10 {
+             
+             margin: 20px auto auto auto;
                 
-      }
+         }
+         
+         .logo_prod1 {
+             
+             display:none;
+         
+         }
+         
+         .logo_prod2 {
+             margin: auto;
+             width: 200px;
+             height: 200px;
+         }
 
-      #joindre {
-        float:right;
-        margin-right:20px;
-        padding:10px;
-        width: auto;
-        background-color: #0000ff; 
-        color:#ffffff; 
-        border:2px #ffffff solid;
-    
+         .liste_autre {
+            list-style: none;
+            
+         }
+         
+         .liste_autre1 {
+           list-style:none;
+           
+         }
     
     }
     
-      #header-title {
-        
-            margin:-100px auto auto 170px;
-            text-shadow:2px 2px #333333;
-            font-size:3rem;
-            color: #00bfff;
-        }
+
+
     
-        #stack {
-    
-            color:#fff;
-            text-shadow:2.5px 3px #333333;
-            font-size:4rem;
-        }
-
-        #adresse {
-            font-size: 1.5rem;
-            float:right;
-            margin:auto;
-        
-        }
-
-        .section {
-            background-color: #000000;
-            line-height: 1.5rem;
-            color: #ffffff;
-            padding-left: 1rem;
-            margin:5px auto 20px auto;
-            font-size: 1.5rem;
-            border-top: 3px #0000ff solid;
-            border-bottom: 3px #0000ff solid;
-            
-            
-        }
-
-        .tel-block{
-            width: 70%;
-            height: 200px;
-            border: 2px solid #ffffff;
-            text-align: center;
-            padding-bottom: 20px;
-            margin:auto auto auto auto;
-            
-        }
-        
-        .courriel-block{
-            margin: 40px auto auto auto;
-            width: 70%;
-            height: 200px;
-            border: 2px solid #ffffff;
-            padding: 20px;
-            text-align: center;
-            
-        }
-        
-        .courriel {
-            font-size: 1.5rem;
-            color:#ffffff;
-            
-        }
-        
-        .tel {
-            color: #ffffff;
-            font-size: 1.5rem;
-           
-        }
-
-        .logo {
-            display: flex;
-            width: 100%;
-            line-height: 100px;
-            margin: 175px auto auto auto ;
-            text-align: center;
-            
-            
-        }
-        
-        .logo1 {
-            
-            width: auto;
-            height:100px;
-            flex: 1;
-            background-color:#262673;
-            padding: 3px;
-            border: 2px #ffffff solid;
-            color: #ffffff;
-            
-        
-        }
-        
-        .logo2 {
-            width: auto;
-            height: 100px;
-            flex: 1;
-            background-color: #264d73;
-            padding: 3px;
-            border: 2px #ffffff solid;
-            color: #ffffff;
-            
-            
-        }
-        
-        .logo3 {
-            width: auto;
-            height: 100px;
-            flex: 1;
-            background-color:#4da6ff;
-            padding: 3px;
-            border: 2px #ffffff solid;
-            color: #ffffff;
-        }
-
-
-        
-}
