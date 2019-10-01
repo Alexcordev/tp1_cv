@@ -11,7 +11,44 @@
         <link rel="stylesheet" href="css/fontawesome.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-        
+ 
+  <style>
+   
+  .footer {
+    
+    background-color: #000000;
+    width: 100%;
+    height: 450px;
+    margin:auto;
+    padding-top: 10px;
+    color: #ffffff;
+  }
+
+  .main {
+    
+    width: 100%;
+    height: 100%;
+    border: 4px #ffffff solid;
+    padding: 0px;
+    background-color: #ccc
+
+
+} 
+
+#suivre {
+  padding: 15px;
+  border: 2px #ffffff solid;
+  width: auto;
+  background: #33cc33;
+  margin: 20px 20px auto auto;
+  float: right;
+  color: #ffffff;
+  font-size: 1rem;
+
+}
+
+    
+  </style>
         
        
        
@@ -33,23 +70,19 @@
         </div>
         
           </div>
-        <nav class="navbar">
-            
-            <a class="skills" href="tp1.html.#skills">COMPÉTENCES</a>
-            <button style="margin:auto 400px 20px auto"id="joindre" type="button">ME JOINDRE</button>
-  
-          </nav> 
+        
       </header>
+      
       
         <div id="main">
           <div class="card-form">
             <form id="form" action="">
             <label for="nom">Nom </label><br />
-            <input  type="text" name="nom" id="nom"><br />
+            <input style="margin-bottom: 20px" type="text" name="nom" id="nom"><br />
             <label for="courriel">Courriel </label><br />
-            <input type="email" name="courriel" id="courriel"><br />
+            <input style="margin-bottom: 20px" type="email" name="courriel" id="courriel"><br />
             <label for="tel">Téléphone </label><br />
-            <input type="tel" name="tel" id="tel"><br />
+            <input style="margin-bottom: 20px" type="tel" name="tel" id="tel"><br />
             
           </div>
          <div class="textarea">
@@ -61,14 +94,26 @@
         </div>
       <!--------------------------------------------------------->
     
-        <section id='coords'><a name='coords'></a>
+        <section id='coords'>
             <header class="section">
                 <h1>Renseignement généraux</h1>
                   
                              
               </header>
+              <nav class="navbar">
             
-        <div class="main-conteneur-renseignement">   
+                <a id="skills" href="tp1.html.#forces">COMPÉTENCES</a>
+                <a id="contact" href="tp1.html.#reach">CONTACT</a>
+                <a id="etudes" href="tp1.html.#diplomes">ÉTUDES</a>
+                <a id="travail" href="tp1.html.#work">EXPÉRIENCE</a>
+                <a id="para" href="tp1.html.#leisures">PARASCOLAIRE</a>
+                <a id="loisirs" href="tp1.html.#temps_libres">AUTRES</a>
+
+                <button type="button" id="joindre">ME JOINDRE</button>
+        
+              </nav> 
+            
+        <div class="main-conteneur-renseignement">  
             
           <div class="infos-principales">
               <p>Ma page web est publiée sur le serveur : </p>
@@ -90,13 +135,13 @@
 
             </section>
 
-            <section id='skills'><a name='skills'></a>
+            <section class="forces">
                 <header class="section">
                     <h1>Mes compétences</h1>
                       
                                  
                   </header>
-         <div style="text-align: left" class="conteneur-competences">
+         <div style="text-align: left" class="conteneur-competences" id='forces'><a name='skills'></a>
          
          
           <div class="compt" id="progress">
@@ -155,7 +200,9 @@
             </div>   
     
                 </section>
-            <div class="coords">
+
+             
+            <div class="coords" id='reach'><a name='contact'></a>
               <div class="tel-block">
                 <span for="tel"><i id="icone-phone" class="fa fa-mobile" aria-hidden="true" ></i></span>
                 <a class="tel" href="tel:+5141234567" id="tel"><strong>514.123.4567</strong></a>
@@ -167,8 +214,6 @@
             </div>   
         
                
-        
-        
         <!--------------------------------------------------------->
         
         <section> 
@@ -179,7 +224,7 @@
             
           </header>
             
-        <div class="conteneur-etudes" > 
+        <div class="conteneur-etudes" id='diplomes'><a name='diplomes'></a> 
           
             
            <section class="box1"> 
@@ -219,12 +264,10 @@
         
         </section>
         
-        
-        
-        
+               
        <!--------------------------------------------------------->
         
-     <section>
+     <section id='work'><a name='travail'></a>
             
         <header class="section">
             
@@ -232,8 +275,7 @@
             
         </header>
             
-          <div class="conteneur-travail">
-            
+          <div class="conteneur-travail">            
               <section class="box4">
                   <i class="fa fa-apple fa-5x"></i>
                  <h2>LOREM IPSUM</h2>
@@ -268,7 +310,7 @@
         
         <!--------------------------------------------------------->
         
-        <section >
+        <section id='leisures'><a name='para'></a>
             
           <header class="section">
             
@@ -307,7 +349,7 @@
     
         <!--------------------------------------------------------->
         
-        <section >
+        <section id='temps_libres'><a name='autres'></a>
             
           <header class="section">
             
@@ -315,7 +357,7 @@
             
           </header>
 
-          <div class="conteneur-autre">
+          <div class="conteneur-autre" >
         
           
           <section class="box9">
@@ -343,15 +385,27 @@
       
  
 <footer class="footer">
+
+
+    <h1 style="margin-left: 30px">Liens intéressants</h1>
+    <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto" id="udemy" href="https://udemy.com" target="_blank" rel="noopener noreferrer">Cours de développement web</a><br><br>
+    <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto" id="git" href="https://github.com" target="_blank" rel="noopener noreferrer">Git Hub</a><br><br>
+    <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto" id="codepen" href="https://codepen.io" target="_blank" rel="noopener noreferrer">Code Pen</a><br><br>
+  
+    <button id="suivre" class="follow" type="button">Suivez-moi...</button>
    
-    <div class="logo">
+    <div id="social" class="logo">
        
        <div class="logo1"><i class="fa fa-facebook-f fa-5x"></i></div>
         <div class="logo2"><i class="fa fa-linkedin fa-5x"></i></div>
         <div class="logo3"><i class="fa fa-twitter fa-5x"></i></div>
+        
+    
     </div>
-
-
+    
+      
+    
+    
 </footer>
 </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 

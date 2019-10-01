@@ -1,6 +1,7 @@
 $(document).ready( function() {
   $(function() {
     $('#main').hide();
+    $('#social').hide();
 });
   
   $('#joindre').on('click', function(){
@@ -10,8 +11,10 @@ $(document).ready( function() {
         
     });
 
+              
       });
-      $('#joindre').on('dblclick', function(){
+
+     $('#joindre').on('dblclick', function(){
         $('#main').slideUp( 1000, function() {
           $( this )
             .css( "border", "2px #0000ff inset" )
@@ -19,53 +22,52 @@ $(document).ready( function() {
         });
     
           });
-    
-     
+        
   
       $('#joindre').on('dblclick', function(){
         $('#form').hide();
       });
 
+      $('#suivre').on('click', function(){
+        $('#social').fadeIn( 1000, function() {
+          $( this )
+            .css( "margin", "auto" )
+            $('#suivre').hide();
+        });
+      });      
+
       $('button').on('mouseenter', function(){
-        $('#joindre').css('background', '#33cc33');
+        $(this).css('background', '#ff9900');
       });
   
       $('button').on('mouseleave', function(){
-        $('#joindre').css('background', '#0000ff');
+        $(this).css('background', '#33cc33');
       });
 
-      $('input').focus( function(){
-        $('input#nom').css('background', '#daffb3');
-      });
-
-      $('input').blur( function(){
-        $('input#nom').css('background', '#ffffff');
-      });
-
-      $('input').focus( function(){
-        $('input#courriel').css('background', '#daffb3');
-      });
-
-      $('input').blur( function(){
-        $('input#courriel').css('background', '#ffffff');
-      });
-    
-
-      $('input').focus( function(){
-        $('input#tel').css('background', '#daffb3');
-      });
-
-      $('input').blur( function(){
-        $('input#tel').css('background', '#ffffff');
-      });
-
-      $('button').on('mouseenter', function(){
-        $('#envoyer').css('background', '#33cc33');
+      $('a').on('mouseover', function(){
+        $(this).css('background', '#ff9900');
       });
   
-      $('button').on('mouseleave', function(){
-        $('#envoyer').css('background', '#000000');
+      $('a').on('mouseleave', function(){
+        $(this).css('background', '#33cc33');
       });
+
+      $('input').focus( function(){
+        $(this).css('background', '#daffb3');
+      });
+
+      $('input').blur( function(){
+        $(this).css('background', '#ffffff');
+      });
+      $('textarea').focus( function(){
+        $(this).css('background', '#daffb3');
+      });
+
+      $('textarea').blur( function(){
+        $(this).css('background', '#ffffff');
+      });
+
+
 
       $('#form').submit(function(e){
         e.preventDefault();

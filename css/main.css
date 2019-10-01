@@ -18,7 +18,7 @@ body {
     border: 1px #000000 solid;
     padding: 0px;
     margin: auto;
-    background-color: #ccc
+    background-color: #ccc;
 
 
 }
@@ -64,21 +64,112 @@ width: 60%;
 .navbar {
     width: 100%;
     height: 50px;
-    background-color: #0000ff;
+    background-color: #33cc33;
     color: #ffffff;
     
 }
 
 #joindre {
+    height: 50px;
     float:right;
     padding:10px;
     width: auto;
-    background-color: #0000ff; 
+    background-color: #33cc33; 
     color:#ffffff; 
     border:2px #ffffff solid;
+    margin:auto 20px 20px auto;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-decoration-color: #33cc33;
+   
 
 
 }
+
+#skills {
+    height: 50px;
+    color:#ffffff;
+    background-color: #33cc33;
+    padding:10px;
+    width: auto;
+    border:2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto 20px 275px;
+    float:left;
+    font-size: 1rem;
+}
+
+#contact {
+    height: 50px;
+    color:#ffffff;
+    background-color: #33cc33;
+    padding:10px;
+    width: auto;
+    border:2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto 20px 5px;
+    float:left;
+    font-size: 1rem;
+
+}
+
+#etudes {
+    height: 50px;
+    color:#ffffff;
+    background-color: #33cc33;
+    padding:10px;
+    width: auto;
+    border:2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto 20px 5px;
+    float:left;
+    font-size: 1rem;
+
+}
+
+#travail {
+    height: 50px;
+    color:#ffffff;
+    background-color: #33cc33;
+    padding:10px;
+    width: auto;
+    border:2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto 20px 5px;
+    float:left;
+    font-size: 1rem;
+
+}
+
+#para {
+    height: 50px;
+    color:#ffffff;
+    background-color: #33cc33;
+    padding:10px;
+    width: auto;
+    border:2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto 20px 5px;
+    float:left;
+    font-size: 1rem;
+
+}
+
+#loisirs {
+    height: 50px;
+    color:#ffffff;
+    background-color: #33cc33;
+    padding:10px;
+    width: auto;
+    border:2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto 20px 5px;
+    float:left;
+    font-size: 1rem;
+
+}
+
+
 .infosgen {
     color:#ffffff;
     background-color: #0000ff;
@@ -87,18 +178,6 @@ width: 60%;
     border:2px #ffffff solid;
 
 }
-
-.skills {
-    color:#ffffff;
-    background-color: #0000ff;
-    padding:10px;
-    width: auto;
-    border:2px #ffffff solid;
-    text-decoration: none;
-    margin: auto 20px 20px 60px;
-
-}
-
 
 #header-title {
     
@@ -164,8 +243,8 @@ width: 60%;
 margin-bottom: 20px;
 padding: 10px;
 width: 80px;
-background-color: #262626;
-border: 2px #33cc33 solid;
+background-color: #33cc33;
+border: 2px #ffffff solid;
 color: #ffffff;
 
 }
@@ -196,7 +275,6 @@ input {
 .logo {
     display: flex;
     width: 50%;
-    line-height: 100px;
     margin:0% 25%;
     text-align: center;
     
@@ -212,7 +290,7 @@ input {
     padding: 3px;
     border: 2px #ffffff solid;
     color: #ffffff;
-    margin-top: 30%;
+    
     
 
 }
@@ -225,7 +303,7 @@ input {
     padding: 3px;
     border: 2px #ffffff solid;
     color: #ffffff;
-    margin-top: 30%;
+    
     
 }
 
@@ -237,7 +315,7 @@ input {
     padding: 3px;
     border: 2px #ffffff solid;
     color: #ffffff;
-    margin-top: 30%;
+    
 }
 
 body{
@@ -251,10 +329,10 @@ body{
     line-height: 2rem;
     color: #ffffff;
     padding-left: 1rem;
-    margin:5px auto 0px auto;
+    margin:0px auto 0px auto;
     font-size: 2rem;
-    border-top: 3px #0000ff solid;
-    border-bottom: 3px #0000ff solid;
+    border-top: 3px #ffffff solid;
+    border-bottom: 3px #ffffff solid;
     text-align: center;
     
     
@@ -303,9 +381,6 @@ body{
 
 }
 
-
-
-
 .infos-principales {
     flex: 1;
     order: 1;
@@ -328,15 +403,13 @@ body{
    width: 50%;
         
 }   
-    
-
-
+ 
 .coords {
     border-top: 5px solid #ffffff;
     background-color: #33cc33;
     width:100%;
     height: 450px;
-    padding: 1.5rem 5rem 1.5rem 5rem;
+    padding: 0rem 5rem 2rem 5rem;
     text-align: center;
     
 
@@ -347,19 +420,19 @@ body{
     line-height: 100px;
     border: 2px solid #ffffff;
     text-align: center;
-    margin: auto;
-    padding: 20px;
+    margin: 50px auto 50px auto;
+    padding: 0px;
     
     
 }
 
 .courriel-block{
-    margin: 20px auto auto auto;
+    margin: auto auto 80px auto;
     width: 50%;
     line-height: 100px;
     border: 2px solid #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -379,7 +452,7 @@ body{
 }
 
 #icone-phone {
-    font-size: 6rem;
+    font-size: 7rem;
     
     
 }
@@ -391,7 +464,8 @@ body{
 
 .conteneur-competences {
     padding: 1.5rem 5rem 1.5rem 5rem;
-    height: 700px;
+    height: auto;
+    width: 100%;
     background-color: #0000ff;
     margin: auto;
 
@@ -466,17 +540,18 @@ body{
 
 .conteneur-autre {
    display: flex;
-   height: auto;
-   width: 80%;
+   height: 400px;
+   width: 100%;
    padding: 1.5rem 5rem 1.5rem 5rem;
-   margin: auto;
+   margin-bottom: 0px;
+   background-color: #ff9900;
 }
 
 .box9 {
-
+   
     flex: 1;
     order: 1;
-    margin: 20px auto auto auto;
+    
     
 }
 
@@ -484,31 +559,21 @@ body{
     
     flex: 1;
     order: 2;
-    margin: 20px auto auto auto;
+    
        
 }
 
 .logo_prod1 {
     position: absolute;
-    margin: 40px auto 20px 60px;
+    margin: 5% auto auto 180px;
 
 }
 
 .logo_prod2 {
-    position: relative;
-    margin: 40px auto 20px -100px
+    position: absolute;
+    margin: 5% auto auto 10px
 }
 
-
-.footer {
-
-    background-color: #0000ff;
-    width: 100%;
-    height: 450px;
-    padding-top: 10%;
-    margin:auto auto auto auto;
-    color: #ffffff;
-}
 
 @media only screen and (max-width: 900px) {
     
@@ -516,29 +581,32 @@ body{
         
         margin: 0px;
         width: 100%;
-        
-        
-        
-        
+           
     }
-    .main {
-    
-        width: 100%;
-        height: 100%;
-        border: 1px #000000 solid;
-        padding: 0px;
-        background-color: #ccc
-    
-    
-    } 
-    
+       
     .navbar {
-        width: 100%;
-        height: 50px;
-        background-color: #0000ff;
-        color: #ffffff;
+        display:none;
         
     }
+
+    #header-title {
+    
+        text-shadow:2px 2px #333333;
+        color: #00bfff;
+        font-size: 4rem;
+        float: right;
+        margin: 150px -200px 150px 150px;
+        width: 100%;
+    }
+    
+    #stack {
+        
+        color:#fff;
+        text-shadow:3px 3px #333333;
+        font-size: 3rem;
+        margin-left:20px;
+    }
+    
     
     #joindre {
         
@@ -569,6 +637,17 @@ body{
             color:#fff;
             text-shadow:3px 3px #333333;
             font-size:4rem;
+        }
+
+        .coords {
+            border-top: 5px solid #ffffff;
+            background-color: #33cc33;
+            width:100%;
+            height: 450px;
+            padding: 1.5rem 5rem 1.5rem 5rem;
+            text-align: center;
+            
+        
         }
 
         .infos {
@@ -608,10 +687,10 @@ body{
             line-height: 2rem;
             color: #ffffff;
             padding-left: 1rem;
-            margin:5px auto 20px auto;
+            margin:0px auto auto auto;
             font-size: 1rem;
-            border-top: 3px #0000ff solid;
-            border-bottom: 3px #0000ff solid;
+            border-top: 3px #ffffff solid;
+            border-bottom: 3px #ffffff solid;
             
             
         }
@@ -640,7 +719,7 @@ body{
         }
         
         .courriel-block{
-            margin: 40px auto auto auto;
+            margin: auto auto 80px auto;
             width: 70%;
             height: 200px;
             border: 2px solid #ffffff;
@@ -737,48 +816,49 @@ body{
          }
          
          .hobby {
-             height: 150px;
-             width: 150px;
+             height: 100px;
+             width: 100px;
              border: 5px double #262626;
              margin-left:40px;
          }
+
+         #temps_libres {
+            background-color: #ff9900;
+
+         }
+
+        .conteneur-autre {
+            width: 100%;  
+            height: 100%;          
+            display: inline-block;
+            padding: 1.5rem 5rem 1.5rem 5rem;
+            text-align: center;
+         }
+         
+         .box9 {
+         
+             display: none;
+             
+         }
+
 
          .logo_prod1 {
             display:none;
         
         }
 
-        .conteneur-autre {
-            display: inline;
-            padding: 1.5rem 5rem 1.5rem 5rem;
-            margin: auto;
-            text-align: center;
-         }
-         
-         .box9 {
-         
-             margin: 20px auto auto auto;
-             
-         }
+        .logo_prod2 {
+            display:none;
+        
+        }
          
          .box10 {
              
-             margin: 20px auto auto auto;
+             padding-top: 0px;
                 
          }
          
-         .logo_prod1 {
-             
-             display:none;
          
-         }
-         
-         .logo_prod2 {
-             margin: auto;
-             width: 200px;
-             height: 200px;
-         }
-
          .liste_autre {
             list-style: none;
             
@@ -788,6 +868,17 @@ body{
            list-style:none;
            
          }
+
+         .footer {
+    
+            background-color: #000000;
+            width: 100%;
+            height: 100%;
+            margin:auto auto auto auto;
+            color: #ffffff;
+          }
+
+          
     
     }
     
