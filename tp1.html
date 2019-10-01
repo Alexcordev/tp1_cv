@@ -1,419 +1,437 @@
 <!DOCTYPE html>
 
- <html lang="fr">
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <title>Mon CV</title>
- <meta name="description" content="CV d'Alexandre Cormier">
-    <head>
-        
-        <link rel="stylesheet" href="css/baranimation.css">
-        <link rel="stylesheet" href="css/fontawesome.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
- 
+<html lang="fr">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Mon CV</title>
+<meta name="description" content="CV d'Alexandre Cormier">
+
+<head>
+
+  <link rel="stylesheet" href="css/baranimation.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
   <style>
-   
-  .footer {
-    
-    background-color: #000000;
-    width: 100%;
-    height: 450px;
-    margin:auto;
-    padding-top: 10px;
-    color: #ffffff;
-  }
+    .footer {
 
-  .main {
-    
-    width: 100%;
-    height: 100%;
-    border: 4px #ffffff solid;
-    padding: 0px;
-    background-color: #ccc
+      background-color: #000000;
+      width: 100%;
+      height: 450px;
+      margin: auto;
+      padding-top: 10px;
+      color: #ffffff;
+    }
 
+    .main {
 
-} 
+      width: 100%;
+      height: 100%;
+      border: 4px #ffffff solid;
+      padding: 0px;
+      background-color: #ccc
+    }
 
-#suivre {
-  padding: 15px;
-  border: 2px #ffffff solid;
-  width: auto;
-  background: #33cc33;
-  margin: 20px 20px auto auto;
-  float: right;
-  color: #ffffff;
-  font-size: 1rem;
+    #suivre {
+      padding: 15px;
+      border: 2px #ffffff solid;
+      width: auto;
+      background: #33cc33;
+      margin: 20px 20px auto auto;
+      float: right;
+      color: #ffffff;
+      font-size: 1rem;
 
-}
-
-    
+    }
   </style>
-        
-       
-       
-    </head>
-    <body>
-      <div class="main">
-        
-      <header>
-        <div class="main-header">
-            <div class="jslogo">
-              <img style="color:#ffffff;margin:auto auto 5px 10px;width: 400px; height:400px;" src="images/node-js-brands.svg" alt="js logo">
-               
-            </div>
-        <div class="image">    
-            <img class="avatar" src="images/man.png" alt="avatar " height="400px" width="275px">
+
+</head>
+
+<body>
+  <div class="main">
+
+    <header>
+      <div class="main-header">
+        <div class="jslogo">
+          <img style="color:#ffffff;margin:auto auto 5px 10px;width: 400px; height:400px;"
+            src="images/node-js-brands.svg" alt="js logo">
+
+        </div>
+        <div class="image">
+          <img class="avatar" src="images/man.png" alt="avatar " height="400px" width="275px">
         </div>
         <div class="titre-principal">
-            <p id="header-title" >Développeur<br /><span id="stack" > FULL STACK</span></p>
+          <p id="header-title">Développeur<br /><span id="stack"> FULL STACK</span></p>
         </div>
-        
-          </div>
-        
+
+      </div>
+
+    </header>
+
+
+    <div id="main">
+      <div class="card-form">
+        <form id="form" action="">
+          <label for="nom">Nom </label><br />
+          <input style="margin-bottom: 20px" type="text" name="nom" id="nom"><br />
+          <label for="courriel">Courriel </label><br />
+          <input style="margin-bottom: 20px" type="email" name="courriel" id="courriel"><br />
+          <label for="tel">Téléphone </label><br />
+          <input style="margin-bottom: 20px" type="tel" name="tel" id="tel"><br />
+
+      </div>
+      <div class="textarea">
+        <label for="sujet">Message</label><br />
+        <textarea name="sujet" id="sujet" cols="50" rows="20"></textarea><br /><br />
+        <button id="envoyer" class="envoyer" type="submit">Envoyer</button>
+      </div>
+      </form>
+    </div>
+    <!--------------------------------------------------------->
+
+    <section id='coords'>
+      <header class="section">
+        <h1>Renseignement généraux</h1>
+
+
       </header>
-      
-      
-        <div id="main">
-          <div class="card-form">
-            <form id="form" action="">
-            <label for="nom">Nom </label><br />
-            <input style="margin-bottom: 20px" type="text" name="nom" id="nom"><br />
-            <label for="courriel">Courriel </label><br />
-            <input style="margin-bottom: 20px" type="email" name="courriel" id="courriel"><br />
-            <label for="tel">Téléphone </label><br />
-            <input style="margin-bottom: 20px" type="tel" name="tel" id="tel"><br />
-            
-          </div>
-         <div class="textarea">
-            <label for="sujet">Message</label><br />
-            <textarea name="sujet" id="sujet" cols="50" rows="20"></textarea><br /><br />
-            <button id="envoyer" class="envoyer" type="submit">Envoyer</button>
-          </div>
-          </form>
+      <nav class="navbar">
+
+        <a id="skills" href="tp1.html.#forces">COMPÉTENCES</a>
+        <a id="contact" href="tp1.html.#reach">CONTACT</a>
+        <a id="etudes" href="tp1.html.#diplomes">ÉTUDES</a>
+        <a id="travail" href="tp1.html.#work">EXPÉRIENCE</a>
+        <a id="para" href="tp1.html.#leisures">PARASCOLAIRE</a>
+        <a id="loisirs" href="tp1.html.#temps_libres">AUTRES</a>
+
+        <button type="button" id="joindre">ME JOINDRE</button>
+
+      </nav>
+
+      <div class="main-conteneur-renseignement">
+
+        <div class="infos-principales">
+          <p>Ma page web est publiée sur le serveur : </p>
+
+          <h1 class="infos">Alexandre Cormier</h1>
+          <h3 class="infos1">Matricule :</h3>
         </div>
-      <!--------------------------------------------------------->
-    
-        <section id='coords'>
-            <header class="section">
-                <h1>Renseignement généraux</h1>
-                  
-                             
-              </header>
-              <nav class="navbar">
-            
-                <a id="skills" href="tp1.html.#forces">COMPÉTENCES</a>
-                <a id="contact" href="tp1.html.#reach">CONTACT</a>
-                <a id="etudes" href="tp1.html.#diplomes">ÉTUDES</a>
-                <a id="travail" href="tp1.html.#work">EXPÉRIENCE</a>
-                <a id="para" href="tp1.html.#leisures">PARASCOLAIRE</a>
-                <a id="loisirs" href="tp1.html.#temps_libres">AUTRES</a>
+        <div class="images-renseignement">
+          <img class="clip" src="images/paperclip.png" alt="clip">
+          <img class="map" src="images/google-maps.jpg" alt="map">
+        </div>
+        <div class="adresse">
 
-                <button type="button" id="joindre">ME JOINDRE</button>
-        
-              </nav> 
-            
-        <div class="main-conteneur-renseignement">  
-            
-          <div class="infos-principales">
-              <p>Ma page web est publiée sur le serveur : </p>
-            
-              <h1 class="infos">Alexandre Cormier</h1>
-              <h3 class="infos1">Matricule :</h3>  
-          </div>
-              <div class="images-renseignement">
-              <img class="clip" src="images/paperclip.png" alt="clip">      
-              <img class="map" src="images/google-maps.jpg" alt="map"> 
-              </div>  
-              <div class="adresse">
-              
-                <span><i id="markup" class="fa fa-map-marker fa-5x"></i></span>
-                <address id="adresse">123, rue principale <br />Montréal(Québec)<br /> HOH OHO </address>
-              </div> 
-                
-              </div>
-
-            </section>
-
-            <section class="forces">
-                <header class="section">
-                    <h1>Mes compétences</h1>
-                      
-                                 
-                  </header>
-         <div style="text-align: left" class="conteneur-competences" id='forces'><a name='skills'></a>
-         
-         
-          <div class="compt" id="progress">
-            <label style="font-size: 1.5rem; color: #ffffff" for="bar1">HTML</label>
-               
-                <div id="bar1" class="barfiller">
-                    <span class="tip"></span>
-                    <span class="fill" data-percentage="95"></span>
-                </div>
-
-                <label style="font-size: 1.5rem; color:#ffffff" for="bar2">CSS</label>
-                 
-                    <div id="bar2" class="barfiller">
-                        <span class="tip"></span>
-                        <span class="fill" data-percentage="90"></span>
-                    </div>
-              
-                    <label style="font-size: 1.5rem; color:#ffffff" for="bar2">JAVASCRIPT</label>
-                 
-                    <div id="bar3" class="barfiller">
-                        <span class="tip"></span>
-                        <span class="fill" data-percentage="85"></span>
-                    </div>
-
-
-                    <label style="font-size: 1.5rem; color: #ffffff" for="bar2">JQUERY</label>
-                 
-                    <div id="bar4" class="barfiller">
-                        <span class="tip"></span>
-                        <span class="fill" data-percentage="80"></span>
-                    </div>
-
-                    <label style="font-size: 1.5rem; color: #ffffff" for="bar2">PHP</label>
-                 
-                    <div id="bar5" class="barfiller">
-                        <span class="tip"></span>
-                        <span class="fill" data-percentage="80"></span>
-                    </div>
-
-                    <label style="font-size: 1.5rem; color: #ffffff" for="bar2">LARAVEL</label>
-                 
-                    <div id="bar6" class="barfiller">
-                        <span class="tip"></span>
-                        <span class="fill" data-percentage="80"></span>
-                    </div>
-
-                    <label style="font-size: 1.5rem; color: #ffffff" for="bar2">EXPRESS</label>
-                 
-                    <div id="bar7" class="barfiller">
-                        <span class="tip"></span>
-                        <span class="fill" data-percentage="75"></span>
-                    </div>
-                  
-                </div>
-                
-            </div>   
-    
-                </section>
-
-             
-            <div class="coords" id='reach'><a name='contact'></a>
-              <div class="tel-block">
-                <span for="tel"><i id="icone-phone" class="fa fa-mobile" aria-hidden="true" ></i></span>
-                <a class="tel" href="tel:+5141234567" id="tel"><strong>514.123.4567</strong></a>
-              </div>
-              <div class="courriel-block">
-              <span for="courriel"><i id="icone-email" class="fa fa-envelope-o" aria-hidden="true" ></i></span>
-              <a class="courriel" id="courriel" href="mailto://lorem@ipsum.com">lorem@lorem.com</a>
-             </div>
-            </div>   
-        
-               
-        <!--------------------------------------------------------->
-        
-        <section> 
-        
-        <header style="margin-top: 0px;" class="section">
-            
-               <h1>Études</h1>
-            
-          </header>
-            
-        <div class="conteneur-etudes" id='diplomes'><a name='diplomes'></a> 
-          
-            
-           <section class="box1"> 
-              <i class="fa fa-university fa-5x"></i>
-              <h2>LOREM IPSUM</h2>
-              <p style="text-indent: 40px;text-align: justify;width:80%; margin: auto;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem mollis.
-                   
-              </p> 
-                         
-            </section>
-            
-            <section class="box2">
-                <i class="fa fa-graduation-cap fa-5x"></i>
-                <h2>LOREM IPSUM</h2>
-              <p style="text-indent: 40px; text-align: justify;width:80%; margin: auto;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem mollis.
-                   
-              </p> 
-                        
-            </section>
-
-            <section class="box3">
-                <i class="fa fa-code fa-5x"></i>
-                <h2>LOREM IPSUM</h2>
-              <p style="text-indent: 40px;text-align: justify;width:80%; margin:auto;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem mollis.
-                   
-              </p> 
-             
-            
-            </section>
-            
-            
-          </div>
-        
-        
-        </section>
-        
-               
-       <!--------------------------------------------------------->
-        
-     <section id='work'><a name='travail'></a>
-            
-        <header class="section">
-            
-           <h1>Expérience de travail</h1>
-            
-        </header>
-            
-          <div class="conteneur-travail">            
-              <section class="box4">
-                  <i class="fa fa-apple fa-5x"></i>
-                 <h2>LOREM IPSUM</h2>
-        
-                 <p style="text-indent: 40px;text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem mollis.</p>
-            
-              </section>
-            
-            
-            <section class="box5">
-                <i class="fa fa-google fa-5x"></i>
-                <h2>LOREM IPSUM</h2>
-        
-                <p style="text-indent: 40px;text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem mollis.</p>
-            
-            </section>
-            
-            <section class="box6">
-                <i class="fa fa-amazon fa-5x"></i>
-                <h2>LOREM IPSUM</h2>
-                <p style="text-indent: 40px;text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem mollis.</p>
-            
-            </section>
-            
-            
-          </div>
-               
-        
-        
-        
-        </section>
-        
-        <!--------------------------------------------------------->
-        
-        <section id='leisures'><a name='para'></a>
-            
-          <header class="section">
-            
-             <h1>Activités parascolaires</h1>
-            
-          </header>
-
-          <div class="conteneur-parasco">
-                                   
-          <section class="box7">
-             
-              <h2>Lorem Ipsum</h2>
-
-              <ul class="liste_parasco">
-               <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
-               <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
-               <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
-               <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
-               <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
-
-              </ul>
-        
-           </section>
-           <section class="box8">
-
-              <img class="hobby" src="images/piano.png" alt="piano">
-  
-           </section>
-                                 
+          <span><i id="markup" class="fa fa-map-marker fa-5x"></i></span>
+          <address id="adresse">123, rue principale <br />Montréal(Québec)<br /> HOH OHO </address>
         </div>
 
-        
-        
-        </section>
-        
-    
-        <!--------------------------------------------------------->
-        
-        <section id='temps_libres'><a name='autres'></a>
-            
-          <header class="section">
-            
-            <h1>Autres</h1>
-            
-          </header>
+      </div>
 
-          <div class="conteneur-autre" >
-        
-          
-          <section class="box9">
-              
-              <img class="logo_prod1" style="width: 150px; height: 150px" class="logo_prod" src="images/angular-brands.svg" alt="logo_php">
-              <img class="logo_prod2" style="width: 150px; height: 150px" class="logo_prod" src="images/react-brands.svg" alt="logo_php">
-          </section>  
-      <section class="box10">
-          <h2>LOREM IPSUM DOLOR SIT AMET</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
-      <ol class="liste_autre">
-        <li style="margin-left: 50px">Lorem ipsum dolor sit amet</li>
-        <li style="margin-left: 50px">Lorem ipsum dolor sit amet</li>
-          <ul class="liste_autre1">
-            <li style="margin-left: 50px">Lorem Ipsum</li>
-            <li style="margin-left: 50px">Lorem Ipsum</li>
+    </section>
+
+    <section class="forces">
+      <header class="section">
+        <h1>Mes compétences</h1>
+
+
+      </header>
+      <div style="text-align: left" class="conteneur-competences" id='forces'><a name='skills'></a>
+
+
+        <div class="compt" id="progress">
+          <label style="font-size: 1.5rem; color: #ffffff" for="bar1">HTML</label>
+
+          <div id="bar1" class="barfiller">
+            <span class="tip"></span>
+            <span class="fill" data-percentage="95"></span>
+          </div>
+
+          <label style="font-size: 1.5rem; color:#ffffff" for="bar2">CSS</label>
+
+          <div id="bar2" class="barfiller">
+            <span class="tip"></span>
+            <span class="fill" data-percentage="90"></span>
+          </div>
+
+          <label style="font-size: 1.5rem; color:#ffffff" for="bar2">JAVASCRIPT</label>
+
+          <div id="bar3" class="barfiller">
+            <span class="tip"></span>
+            <span class="fill" data-percentage="85"></span>
+          </div>
+
+
+          <label style="font-size: 1.5rem; color: #ffffff" for="bar2">JQUERY</label>
+
+          <div id="bar4" class="barfiller">
+            <span class="tip"></span>
+            <span class="fill" data-percentage="80"></span>
+          </div>
+
+          <label style="font-size: 1.5rem; color: #ffffff" for="bar2">PHP</label>
+
+          <div id="bar5" class="barfiller">
+            <span class="tip"></span>
+            <span class="fill" data-percentage="80"></span>
+          </div>
+
+          <label style="font-size: 1.5rem; color: #ffffff" for="bar2">LARAVEL</label>
+
+          <div id="bar6" class="barfiller">
+            <span class="tip"></span>
+            <span class="fill" data-percentage="80"></span>
+          </div>
+
+          <label style="font-size: 1.5rem; color: #ffffff" for="bar2">EXPRESS</label>
+
+          <div id="bar7" class="barfiller">
+            <span class="tip"></span>
+            <span class="fill" data-percentage="75"></span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <div class="coords" id='reach'><a name='contact'></a>
+      <div class="tel-block">
+        <span for="tel"><i id="icone-phone" class="fa fa-mobile" aria-hidden="true"></i></span>
+        <a class="tel" href="tel:+5141234567" id="tel"><strong>514.123.4567</strong></a>
+      </div>
+      <div class="courriel-block">
+        <span for="courriel"><i id="icone-email" class="fa fa-envelope-o" aria-hidden="true"></i></span>
+        <a class="courriel" id="courriel" href="mailto://lorem@ipsum.com">lorem@lorem.com</a>
+      </div>
+    </div>
+
+
+    <!--------------------------------------------------------->
+
+    <section>
+
+      <header style="margin-top: 0px;" class="section">
+
+        <h1>Études</h1>
+
+      </header>
+
+      <div class="conteneur-etudes" id='diplomes'><a name='diplomes'></a>
+
+
+        <section class="box1">
+          <i class="fa fa-university fa-5x"></i>
+          <h2>LOREM IPSUM</h2>
+          <p style="text-indent: 40px;text-align: justify;width:80%; margin: auto;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem
+            mollis.
+
+          </p>
+
+        </section>
+
+        <section class="box2">
+          <i class="fa fa-graduation-cap fa-5x"></i>
+          <h2>LOREM IPSUM</h2>
+          <p style="text-indent: 40px; text-align: justify;width:80%; margin: auto;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem
+            mollis.
+
+          </p>
+
+        </section>
+
+        <section class="box3">
+          <i class="fa fa-code fa-5x"></i>
+          <h2>LOREM IPSUM</h2>
+          <p style="text-indent: 40px;text-align: justify;width:80%; margin:auto;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas erat imperdiet sed euismod nisi porta lorem
+            mollis.
+
+          </p>
+
+
+        </section>
+
+
+      </div>
+
+
+    </section>
+
+
+    <!--------------------------------------------------------->
+
+    <section id='work'><a name='travail'></a>
+
+      <header class="section">
+
+        <h1>Expérience de travail</h1>
+
+      </header>
+
+      <div class="conteneur-travail">
+        <section class="box4">
+          <i class="fa fa-apple fa-5x"></i>
+          <h2>LOREM IPSUM</h2>
+
+          <p style="text-indent: 40px;text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas
+            erat imperdiet sed euismod nisi porta lorem mollis.</p>
+
+        </section>
+
+
+        <section class="box5">
+          <i class="fa fa-google fa-5x"></i>
+          <h2>LOREM IPSUM</h2>
+
+          <p style="text-indent: 40px;text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas
+            erat imperdiet sed euismod nisi porta lorem mollis.</p>
+
+        </section>
+
+        <section class="box6">
+          <i class="fa fa-amazon fa-5x"></i>
+          <h2>LOREM IPSUM</h2>
+          <p style="text-indent: 40px;text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum nisi quis eleifend quam. Egestas
+            erat imperdiet sed euismod nisi porta lorem mollis.</p>
+
+        </section>
+
+
+      </div>
+
+
+
+
+    </section>
+
+    <!--------------------------------------------------------->
+
+    <section id='leisures'><a name='para'></a>
+
+      <header class="section">
+
+        <h1>Activités parascolaires</h1>
+
+      </header>
+
+      <div class="conteneur-parasco">
+
+        <section class="box7">
+
+          <h2>Lorem Ipsum</h2>
+
+          <ul class="liste_parasco">
+            <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
+            <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
+            <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
+            <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
+            <li style="margin-left: 40px">Lorem ipsum dolor sit amet</li>
+
           </ul>
-        <li style="margin-left: 50px">Lorem ipsum dolor sit amet</li>
-        <li style="margin-left: 50px">Lorem ipsum dolor sit amet</li>
-      </ol>
+
+        </section>
+        <section class="box8">
+
+          <img class="hobby" src="images/piano.png" alt="piano">
+
+        </section>
+
+      </div>
+
+
+
+    </section>
+
+
+    <!--------------------------------------------------------->
+
+    <section id='temps_libres'><a name='autres'></a>
+
+      <header class="section">
+
+        <h1>Autres</h1>
+
+      </header>
+
+      <div class="conteneur-autre">
+
+
+        <section class="box9">
+
+          <img class="logo_prod1" style="width: 150px; height: 150px" class="logo_prod" src="images/angular-brands.svg"
+            alt="logo_php">
+          <img class="logo_prod2" style="width: 150px; height: 150px" class="logo_prod" src="images/react-brands.svg"
+            alt="logo_php">
+        </section>
+        <section class="box10">
+          <h2>LOREM IPSUM DOLOR SIT AMET</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p><br>
+          <ol class="liste_autre">
+            <li style="margin-left: 50px">Lorem ipsum dolor sit amet</li>
+            <li style="margin-left: 50px">Lorem ipsum dolor sit amet</li>
+            <ul class="liste_autre1">
+              <li style="margin-left: 50px">Lorem Ipsum</li>
+              <li style="margin-left: 50px">Lorem Ipsum</li>
+            </ul>
+            <li style="margin-left: 50px">Lorem ipsum dolor sit amet</li>
+            <li style="margin-left: 50px">Lorem ipsum dolor sit amet</li>
+          </ol>
         </section>
       </div>
 
-        </section>
-      
- 
-<footer class="footer">
+    </section>
 
 
-    <h1 style="margin-left: 30px">Liens intéressants</h1>
-    <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto" id="udemy" href="https://udemy.com" target="_blank" rel="noopener noreferrer">Cours de développement web</a><br><br>
-    <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto" id="git" href="https://github.com" target="_blank" rel="noopener noreferrer">Git Hub</a><br><br>
-    <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto" id="codepen" href="https://codepen.io" target="_blank" rel="noopener noreferrer">Code Pen</a><br><br>
-    <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto" id="codepen" href="https://brain.js.org" target="_blank" rel="noopener noreferrer">Intelligence artificielle JS</a><br><br><br>
-    <button id="suivre" class="follow" type="button">Suivez-moi...</button>
-   
-    <div id="social" class="logo">
-       
-       <div class="logo1"><i class="fa fa-facebook-f fa-5x"></i></div>
+    <footer class="footer">
+
+
+      <h1 style="margin-left: 30px">Liens intéressants</h1>
+      <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto"
+        id="udemy" href="https://udemy.com" target="_blank" rel="noopener noreferrer">Cours de développement
+        web</a><br><br>
+      <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto"
+        id="git" href="https://github.com" target="_blank" rel="noopener noreferrer">Git Hub</a><br><br>
+      <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto"
+        id="codepen" href="https://codepen.io" target="_blank" rel="noopener noreferrer">Code Pen</a><br><br>
+      <a style="margin:50px auto 0px 60px; background-color:#33cc33; color: #ffffff; font-size: 1.8rem; width: auto"
+        id="codepen" href="https://brain.js.org" target="_blank" rel="noopener noreferrer">Intelligence artificielle
+        JS</a><br><br><br>
+      <button id="suivre" class="follow" type="button">Suivez-moi...</button>
+
+      <div id="social" class="logo">
+
+        <div class="logo1"><i class="fa fa-facebook-f fa-5x"></i></div>
         <div class="logo2"><i class="fa fa-linkedin fa-5x"></i></div>
         <div class="logo3"><i class="fa fa-twitter fa-5x"></i></div>
-        
-    
-    </div>
-    
-      
-    
-    
-</footer>
-</div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
-        <script src="js/jquery.viewport.mini.js"></script>
-<script src="js/main.js"></script>
-<script src="https://use.fontawesome.com/56a521e0d9.js"></script>  
 
-<script src="js/baranimation.js"></script>    
-    </body>
+
+      </div>
+
+
+
+
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/jquery.viewport.mini.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://use.fontawesome.com/56a521e0d9.js"></script>
+
+  <script src="js/baranimation.js"></script>
+</body>
+
 </html>
 
