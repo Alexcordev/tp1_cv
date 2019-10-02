@@ -4,6 +4,8 @@ $(document).ready(function () {
     $('#social').hide();
   });
 
+  //Lorsqu'il y a un clic sur le bouton avec #joindre l'animation .slideDown est déclenchée et le formulaire de contact s'affiche
+
   $('#joindre').on('click', function () {
     $('#main').slideDown(1000, function () {
       $(this)
@@ -13,6 +15,8 @@ $(document).ready(function () {
 
 
   });
+
+  //Le formulaire de contact se referme lors d'un clic sur le même bouton
 
   $('#joindre').on('dblclick', function () {
     $('#main').slideUp(1000, function () {
@@ -27,6 +31,8 @@ $(document).ready(function () {
   $('#joindre').on('dblclick', function () {
     $('#form').hide();
   });
+
+  //Les logos des réseaux sociaux s'affichent avec un fade in lors d'un clic sur le bouton avec #suivre. Ensuite le bouton est caché
 
   $('#suivre').on('click', function () {
     $('#social').fadeIn(1000, function () {
@@ -67,7 +73,7 @@ $(document).ready(function () {
     $(this).css('background', '#ffffff');
   });
 
-
+  // Lorsque l'évènement submit est déclenché une alerte qui contient les données de l'input nom est affichée 
 
   $('#form').submit(function (e) {
     e.preventDefault();
@@ -75,9 +81,15 @@ $(document).ready(function () {
     alert("J'ai bien reçu votre message " + nom + " Merci !");
   });
 
+  // Vérifier si l'évènement défilement de la page est en cours
 
-  $(window).bind("scroll", function (event) { // this checks if the scroll event is occurs
-    $("#progress:in-viewport").each(function () { // this is the selector for viewport. check the link above for more info
+  $(window).bind("scroll", function (event) {
+
+    //Utilisation du plugin bar filler (jquery) pour faire une animation des progress bars dans la section compétences
+
+    // Le sélecteur #progress pour le viewport
+
+    $("#progress:in-viewport").each(function () {
       $('#bar1').barfiller({
         barColor: "#33cc33",
         duration: 2000

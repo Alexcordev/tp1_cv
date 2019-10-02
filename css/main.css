@@ -1,14 +1,17 @@
 * {
+
     box-sizing: border-box;
     padding: 0;
 
 }
 
 body {
+
     box-sizing: content-box;
     margin: auto 200px auto 200px;
     background-color: #262626;
-
+    margin-top: 0rem;
+    font-family: sans-serif;
 
 }
 
@@ -21,27 +24,29 @@ body {
     margin: auto;
     background-color: #ccc;
 
-
 }
 
 .main-header {
+
     width: 100%;
     height: 400px;
     background-color: #0000ff;
     margin: 0px;
     display: flex;
 
-
 }
 
 .jslogo {
+
     flex: 1;
     order: 1;
     height: 400px;
     width: 20%;
+
 }
 
 .image {
+
     flex: 1;
     order: 3;
     height: 400px;
@@ -49,134 +54,48 @@ body {
 
 }
 
+.section {
+
+    background-color: #000000;
+    line-height: 2rem;
+    color: #ffffff;
+    padding-left: 1rem;
+    margin: 0px auto 0px auto;
+    font-size: 2rem;
+    border-top: 3px #ffffff solid;
+    border-bottom: 3px #ffffff solid;
+    text-align: center;
+
+}
+
+.infosgen {
+
+    color: #ffffff;
+    background-color: #0000ff;
+    padding: 10px;
+    width: auto;
+    border: 2px #ffffff solid;
+
+}
+
+
+
 .avatar {
+
+    transform: rotate(8deg);
+    border: 14px #ffffff solid;
+    box-shadow: 2px 4px 6px #262626;
     background-color: #66ff33;
     margin: 15px auto auto 150px;
 
 }
 
 .titre-principal {
+
     flex: 2;
     order: 2;
     height: 400px;
     width: 60%;
-
-}
-
-.navbar {
-    width: 100%;
-    height: 50px;
-    background-color: #33cc33;
-    color: #ffffff;
-
-}
-
-#joindre {
-    height: 50px;
-    float: right;
-    padding: 10px;
-    width: auto;
-    background-color: #33cc33;
-    color: #ffffff;
-    border: 2px #ffffff solid;
-    margin: auto 5px 10px auto;
-    font-size: 14px;
-    text-decoration: underline;
-    text-decoration-color: #33cc33;
-
-
-}
-
-#skills {
-    height: 50px;
-    color: #ffffff;
-    background-color: #33cc33;
-    padding: 10px;
-    width: auto;
-    border: 2px #ffffff solid;
-    text-decoration: none;
-    margin: auto auto 10px 180px;
-    float: left;
-    font-size: 14px;
-}
-
-#contact {
-    height: 50px;
-    color: #ffffff;
-    background-color: #33cc33;
-    padding: 10px;
-    width: auto;
-    border: 2px #ffffff solid;
-    text-decoration: none;
-    margin: auto auto auto 3px;
-    float: left;
-    font-size: 14px;
-
-}
-
-#etudes {
-    height: 50px;
-    color: #ffffff;
-    background-color: #33cc33;
-    padding: 10px;
-    width: auto;
-    border: 2px #ffffff solid;
-    text-decoration: none;
-    margin: auto auto auto 3px;
-    float: left;
-    font-size: 14px;
-
-}
-
-#travail {
-    height: 50px;
-    color: #ffffff;
-    background-color: #33cc33;
-    padding: 10px;
-    width: auto;
-    border: 2px #ffffff solid;
-    text-decoration: none;
-    margin: auto auto auto 3px;
-    float: left;
-    font-size: 14px;
-
-}
-
-#para {
-    height: 50px;
-    color: #ffffff;
-    background-color: #33cc33;
-    padding: 10px;
-    width: auto;
-    border: 2px #ffffff solid;
-    text-decoration: none;
-    margin: auto auto auto 3px;
-    float: left;
-    font-size: 14px;
-
-}
-
-#loisirs {
-    height: 50px;
-    color: #ffffff;
-    background-color: #33cc33;
-    padding: 10px;
-    width: auto;
-    border: 2px #ffffff solid;
-    text-decoration: none;
-    margin: auto auto auto 3px;
-    float: left;
-    font-size: 14px;
-
-}
-
-
-.infosgen {
-    color: #ffffff;
-    background-color: #0000ff;
-    padding: 10px;
-    width: auto;
-    border: 2px #ffffff solid;
 
 }
 
@@ -197,24 +116,130 @@ body {
     margin-left: 90px;
 }
 
-.avatar {
+.navbar {
 
-    transform: rotate(8deg);
-    border: 14px #ffffff solid;
-    box-shadow: 2px 4px 6px #262626;
+    width: 100%;
+    height: 50px;
+    background-color: #33cc33;
+    color: #ffffff;
 
+}
+
+#joindre {
+
+    height: 50px;
+    float: right;
+    padding: 10px;
+    width: auto;
+    background-color: #33cc33;
+    color: #ffffff;
+    border: 2px #ffffff solid;
+    margin: auto 5px 10px auto;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-color: #33cc33;
+
+}
+
+#skills {
+
+    height: 50px;
+    color: #ffffff;
+    background-color: #33cc33;
+    padding: 10px;
+    width: auto;
+    border: 2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto 10px 180px;
+    float: left;
+    font-size: 14px;
+}
+
+#contact {
+
+    height: 50px;
+    color: #ffffff;
+    background-color: #33cc33;
+    padding: 10px;
+    width: auto;
+    border: 2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto auto 3px;
+    float: left;
+    font-size: 14px;
+
+}
+
+#etudes {
+
+    height: 50px;
+    color: #ffffff;
+    background-color: #33cc33;
+    padding: 10px;
+    width: auto;
+    border: 2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto auto 3px;
+    float: left;
+    font-size: 14px;
+
+}
+
+#travail {
+
+    height: 50px;
+    color: #ffffff;
+    background-color: #33cc33;
+    padding: 10px;
+    width: auto;
+    border: 2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto auto 3px;
+    float: left;
+    font-size: 14px;
+
+}
+
+#para {
+
+    height: 50px;
+    color: #ffffff;
+    background-color: #33cc33;
+    padding: 10px;
+    width: auto;
+    border: 2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto auto 3px;
+    float: left;
+    font-size: 14px;
+
+}
+
+#loisirs {
+
+    height: 50px;
+    color: #ffffff;
+    background-color: #33cc33;
+    padding: 10px;
+    width: auto;
+    border: 2px #ffffff solid;
+    text-decoration: none;
+    margin: auto auto auto 3px;
+    float: left;
+    font-size: 14px;
 
 }
 
 #adresse {
+
     margin: auto;
     font-size: 1.5rem;
     text-align: center;
 
-
 }
 
 #main {
+
     width: 100%;
     height: 450px;
     background-color: #ccc;
@@ -224,6 +249,7 @@ body {
 }
 
 .card-form {
+
     margin: 30px auto auto 40px;
     width: auto;
     order: 1;
@@ -251,17 +277,20 @@ body {
 }
 
 input {
+
     width: 100%;
     height: 30px;
 
 }
 
 .infos {
+
     font-size: 2.5rem;
     margin: 20px 20px auto 20px;
 }
 
 .infos1 {
+
     font-size: 2rem;
     margin: 20px 20px auto 20px;
 }
@@ -276,11 +305,11 @@ input {
 
 
 .logo {
+
     display: flex;
     width: 50%;
     margin: 0% 25%;
     text-align: center;
-
 
 }
 
@@ -294,11 +323,10 @@ input {
     border: 2px #ffffff solid;
     color: #ffffff;
 
-
-
 }
 
 .logo2 {
+
     width: 150px;
     height: 100px;
     flex: 1;
@@ -307,10 +335,10 @@ input {
     border: 2px #ffffff solid;
     color: #ffffff;
 
-
 }
 
 .logo3 {
+
     width: 150px;
     height: 100px;
     flex: 1;
@@ -321,38 +349,17 @@ input {
 
 }
 
-body {
-    margin-top: 0rem;
-    font-family: sans-serif;
-}
-
-
-.section {
-    background-color: #000000;
-    line-height: 2rem;
-    color: #ffffff;
-    padding-left: 1rem;
-    margin: 0px auto 0px auto;
-    font-size: 2rem;
-    border-top: 3px #ffffff solid;
-    border-bottom: 3px #ffffff solid;
-    text-align: center;
-
-
-}
-
 .main-conteneur-renseignement {
+
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 40px auto 40px auto;
     height: auto;
-
-
-
 }
 
 .images-renseignement {
+
     position: absolute;
     width: 250px;
     height: 250px;
@@ -362,6 +369,7 @@ body {
 }
 
 .clip {
+
     position: relative;
     width: 50px;
     height: 100px;
@@ -371,6 +379,7 @@ body {
 }
 
 .map {
+
     position: absolute;
     width: 200px;
     height: 200px;
@@ -383,6 +392,7 @@ body {
 }
 
 .infos-principales {
+
     flex: 1;
     order: 1;
     padding: 5px;
@@ -390,10 +400,10 @@ body {
     margin: 40px auto 20px auto;
     width: 50%;
 
-
 }
 
 .adresse {
+
     flex: 1;
     order: 2;
     border-top: 4px #0000ff solid;
@@ -406,6 +416,7 @@ body {
 }
 
 .coords {
+
     border-top: 5px solid #ffffff;
     background-color: #33cc33;
     width: 100%;
@@ -413,10 +424,10 @@ body {
     padding: 0rem 5rem 2rem 5rem;
     text-align: center;
 
-
 }
 
 .tel-block {
+
     width: 50%;
     line-height: 100px;
     border: 2px solid #ffffff;
@@ -424,10 +435,10 @@ body {
     margin: 50px auto 50px auto;
     padding: 0px;
 
-
 }
 
 .courriel-block {
+
     margin: auto auto 80px auto;
     width: 50%;
     line-height: 100px;
@@ -438,6 +449,7 @@ body {
 }
 
 .courriel {
+
     font-size: 1.5rem;
     color: #ffffff;
     height: 100px;
@@ -445,6 +457,7 @@ body {
 }
 
 .tel {
+
     height: 100px;
     color: #ffffff;
     font-size: 1.5rem;
@@ -453,8 +466,8 @@ body {
 }
 
 #icone-phone {
-    font-size: 7rem;
 
+    font-size: 7rem;
 
 }
 
@@ -464,12 +477,12 @@ body {
 }
 
 .conteneur-competences {
+
     padding: 1.5rem 5rem 1.5rem 5rem;
     height: auto;
     width: 100%;
     background-color: #0000ff;
     margin: auto;
-
 
 }
 
@@ -491,12 +504,11 @@ body {
     flex-wrap: wrap;
     text-align: center;
 
-
-
 }
 
 
 .conteneur-travail {
+
     display: flex;
     width: 80%;
     padding: 1.5rem 5rem 1.5rem 5rem;
@@ -505,10 +517,10 @@ body {
     height: auto;
     margin: auto;
 
-
 }
 
 .conteneur-parasco {
+
     display: flex;
     height: auto;
     width: 100%;
@@ -534,6 +546,7 @@ body {
 }
 
 .hobby {
+
     height: 300px;
     width: 300px;
     border: 5px double #262626;
@@ -541,6 +554,7 @@ body {
 }
 
 .conteneur-autre {
+
     display: flex;
     height: auto;
     width: 100%;
@@ -554,7 +568,6 @@ body {
     flex: 1;
     order: 1;
 
-
 }
 
 .box10 {
@@ -562,18 +575,33 @@ body {
     flex: 1;
     order: 2;
 
-
 }
 
 .logo_prod1 {
+
     position: absolute;
     margin: 5% auto auto 180px;
 
 }
 
 .logo_prod2 {
+
     position: absolute;
     margin: 5% auto auto 10px
+}
+
+#validation {
+
+    float: right;
+    margin: -300px 60px auto auto
+}
+
+.anchor-val {
+
+    font-size: 1.8rem;
+    margin: auto auto auto 30px;
+    color: #ffffff;
+    background-color: #33cc33;
 }
 
 .back_top {
@@ -595,6 +623,7 @@ body {
     }
 
     .navbar {
+
         display: none;
 
     }
@@ -627,10 +656,10 @@ body {
         color: #ffffff;
         border: 2px #ffffff solid;
 
-
     }
 
     .avatar {
+
         display: none;
 
     }
@@ -650,6 +679,7 @@ body {
     }
 
     .coords {
+
         border-top: 5px solid #ffffff;
         background-color: #33cc33;
         width: 100%;
@@ -657,23 +687,26 @@ body {
         padding: 1.5rem 5rem 1.5rem 5rem;
         text-align: center;
 
-
     }
 
     .infos {
+
         font-style: 2rem;
     }
 
     #markup {
+
         display: none;
 
     }
 
     .clip {
+
         display: none;
     }
 
     .map {
+
         display: none;
     }
 
@@ -685,14 +718,14 @@ body {
     }
 
     #adresse {
+
         font-size: 1.5rem;
         margin: auto;
-
-
 
     }
 
     .section {
+
         background-color: #000000;
         line-height: 2rem;
         color: #ffffff;
@@ -702,10 +735,10 @@ body {
         border-top: 3px #ffffff solid;
         border-bottom: 3px #ffffff solid;
 
-
     }
 
     input {
+
         width: 100%;
         height: 30px;
         margin-bottom: 20px;
@@ -713,12 +746,14 @@ body {
     }
 
     #sujet {
+
         width: 90%;
         height: 50%;
 
     }
 
     .tel-block {
+
         width: 70%;
         height: 200px;
         border: 2px solid #ffffff;
@@ -729,6 +764,7 @@ body {
     }
 
     .courriel-block {
+
         margin: auto auto 80px auto;
         width: 70%;
         height: 200px;
@@ -739,24 +775,26 @@ body {
     }
 
     .courriel {
+
         font-size: 1.5rem;
         color: #ffffff;
 
     }
 
     .tel {
+
         color: #ffffff;
         font-size: 1.5rem;
 
     }
 
     .logo {
+
         display: flex;
         width: 100%;
         line-height: 100px;
         margin: 175px auto auto auto;
         text-align: center;
-
 
     }
 
@@ -770,10 +808,10 @@ body {
         border: 2px #ffffff solid;
         color: #ffffff;
 
-
     }
 
     .logo2 {
+
         width: auto;
         height: 100px;
         flex: 1;
@@ -782,10 +820,10 @@ body {
         border: 2px #ffffff solid;
         color: #ffffff;
 
-
     }
 
     .logo3 {
+
         width: auto;
         height: 100px;
         flex: 1;
@@ -796,17 +834,15 @@ body {
     }
 
     .conteneur-parasco {
+
         display: inline;
         padding: 1.5rem 5rem 1.5rem 5rem;
         margin: auto;
         text-align: center;
 
-
-
     }
 
     .box7 {
-
 
         margin: 20px auto auto auto;
         list-style: none;
@@ -814,18 +850,19 @@ body {
     }
 
     .liste_parasco {
+
         list-style: none;
 
     }
 
     .box8 {
 
-
         margin: auto;
 
     }
 
     .hobby {
+
         height: 100px;
         width: 100px;
         border: 5px double #262626;
@@ -833,11 +870,13 @@ body {
     }
 
     #temps_libres {
+
         background-color: #ff9900;
 
     }
 
     .conteneur-autre {
+
         width: 100%;
         height: 100%;
         display: inline-block;
@@ -853,11 +892,13 @@ body {
 
 
     .logo_prod1 {
+
         display: none;
 
     }
 
     .logo_prod2 {
+
         display: none;
 
     }
@@ -870,11 +911,13 @@ body {
 
 
     .liste_autre {
+
         list-style: none;
 
     }
 
     .liste_autre1 {
+
         list-style: none;
 
     }
@@ -888,6 +931,138 @@ body {
         color: #ffffff;
     }
 
+    .back_top {
+
+        display: none;
+    }
+
+    #validation {
+        margin: -300px 30px 20px auto;
+    }
+
+    .anchor-val {
+        font-size: 1.5rem;
+        margin: auto auto auto 30px;
+        color: #ffffff;
+        background-color: #33cc33;
+    }
 
 
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    #header-title {
+
+        text-shadow: 2px 2px #333333;
+        color: #00bfff;
+        font-size: 4rem;
+        margin: 150px auto 150px 5px;
+        width: 100%;
+        text-align: right;
+    }
+
+    #stack {
+
+        color: #fff;
+        text-shadow: 3px 3px #333333;
+        font-size: 3rem;
+        margin-left: -80px;
+        text-align: right;
+
+    }
+
+    body {
+
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+
+    }
+
+
+    .coords {
+
+        border-top: 5px solid #ffffff;
+        background-color: #33cc33;
+        width: 100%;
+        height: 450px;
+        padding: 0rem 2rem 2rem 2rem;
+        text-align: center;
+
+    }
+
+    .tel-block {
+
+        width: 100%;
+        line-height: 80px;
+        border: 2px solid #ffffff;
+        text-align: center;
+        margin: 20px auto 10px auto;
+        padding: 0px;
+
+    }
+
+    .courriel-block {
+
+        margin: auto auto 60px auto;
+        width: 100%;
+        line-height: 80px;
+        border: 2px solid #ffffff;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .courriel {
+
+        font-size: 1rem;
+        color: #ffffff;
+        height: 100px;
+        margin-left: 20px;
+
+    }
+
+    .tel {
+
+        height: 100px;
+        color: #ffffff;
+        font-size: 1rem;
+        margin-left: 20px;
+
+    }
+
+    #icone-phone {
+
+        font-size: 8rem;
+
+    }
+
+    #icone-email {
+
+        font-size: 5rem;
+    }
+
+    .footer {
+
+        background-color: #000000;
+        width: 100%;
+        height: 100%;
+        margin: auto auto auto auto;
+        color: #ffffff;
+    }
+
+    #validation {
+        display: none;
+    }
+
+    .anchor-val {
+        display: none;
+    }
+
+    .back_top {
+
+        display: none;
+    }
 }
