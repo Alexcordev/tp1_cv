@@ -79,11 +79,10 @@ body {
     background-color: #33cc33;
     color: #ffffff;
     border: 2px #ffffff solid;
-    margin: auto 20px 20px auto;
-    font-size: 1rem;
+    margin: auto 5px 10px auto;
+    font-size: 14px;
     text-decoration: underline;
     text-decoration-color: #33cc33;
-
 
 
 }
@@ -96,9 +95,9 @@ body {
     width: auto;
     border: 2px #ffffff solid;
     text-decoration: none;
-    margin: auto auto 20px 275px;
+    margin: auto auto 10px 180px;
     float: left;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 #contact {
@@ -109,9 +108,9 @@ body {
     width: auto;
     border: 2px #ffffff solid;
     text-decoration: none;
-    margin: auto auto 20px 5px;
+    margin: auto auto auto 3px;
     float: left;
-    font-size: 1rem;
+    font-size: 14px;
 
 }
 
@@ -123,9 +122,9 @@ body {
     width: auto;
     border: 2px #ffffff solid;
     text-decoration: none;
-    margin: auto auto 20px 5px;
+    margin: auto auto auto 3px;
     float: left;
-    font-size: 1rem;
+    font-size: 14px;
 
 }
 
@@ -137,9 +136,9 @@ body {
     width: auto;
     border: 2px #ffffff solid;
     text-decoration: none;
-    margin: auto auto 20px 5px;
+    margin: auto auto auto 3px;
     float: left;
-    font-size: 1rem;
+    font-size: 14px;
 
 }
 
@@ -151,9 +150,9 @@ body {
     width: auto;
     border: 2px #ffffff solid;
     text-decoration: none;
-    margin: auto auto 20px 5px;
+    margin: auto auto auto 3px;
     float: left;
-    font-size: 1rem;
+    font-size: 14px;
 
 }
 
@@ -165,9 +164,9 @@ body {
     width: auto;
     border: 2px #ffffff solid;
     text-decoration: none;
-    margin: auto auto 20px 5px;
+    margin: auto auto auto 3px;
     float: left;
-    font-size: 1rem;
+    font-size: 14px;
 
 }
 
@@ -512,7 +511,7 @@ body {
 .conteneur-parasco {
     display: flex;
     height: auto;
-    width: 80%;
+    width: 100%;
     padding: 1.5rem 5rem 1.5rem 5rem;
     margin: auto;
 
@@ -522,7 +521,7 @@ body {
 
     flex: 1;
     order: 1;
-    margin: 20px auto auto auto;
+    margin: auto;
 
 }
 
@@ -535,16 +534,17 @@ body {
 }
 
 .hobby {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border: 5px double #262626;
+    margin: auto 30px auto 100px;
 }
 
 .conteneur-autre {
     display: flex;
-    height: 400px;
+    height: auto;
     width: 100%;
-    padding: 1.5rem 5rem 1.5rem 5rem;
+    padding: 1.5rem 5rem 2.5rem 5rem;
     margin-bottom: 0px;
     background-color: #ff9900;
 }
@@ -574,6 +574,14 @@ body {
 .logo_prod2 {
     position: absolute;
     margin: 5% auto auto 10px
+}
+
+.back_top {
+
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin: 30px -150px 40px auto;
 }
 
 
@@ -883,7 +891,3 @@ body {
 
 
 }
-    
-
-
-    
